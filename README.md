@@ -29,4 +29,6 @@ You can take a preview of this!
 > - Displays Day, Year, Month, Date
 > - Box Reflection below and hover effects
 
+---
+
 ###### Thanks to my friend who helped me in this process!
