@@ -1,0 +1,44 @@
+.analog{
+    background: #f3f3f3;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-sizing: content-box;
+    border: 15px #111 solid;
+    border-radius: 50%;
+    box-shadow: 15px 15px 35px rgba(0,0,0,0.2),
+    inset 0 0 30px rgba(0,0,0,0.4);
+}
+
+img{
+    position: relative;
+}
+
+.hand{
+    position: absolute;
+    background-color: #000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.hour{
+    height: 60px;
+    width: 10px;
+    top: 100px;
+}
+.minute{
+    height: 100px;
+    width: 5px;
+    top: 60px;
+}
+.seconds{
+    height: 90px;
+    width: 3px;
+    top: 70px;
+    background-color: #2987e4;
+}
