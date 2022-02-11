@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Analog and Digital clock</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/analog.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./css/digital.css" media="screen">
+</head>
+<body onload="initClock()">
+    <div class="bkg">
+        <div class="container">
+            <div class="light"> <!-- This is black and white divider-->
+                <!--Analog Clock Start-->
+                <div class="analog">
+                    <div class="hour hand" id="hour"></div>
+                    <div class="minute hand" id="minute"></div>
+                    <div class="seconds hand" id="second"></div>
+                    <img src="analogClock.svg" alt="clock">
+                </div>
+            </div>
+            <!--Analog Clock End-->
+            <!--Digital Clock Start-->
+            <div class="digital">
+                <div class="items">
+                    <div class="datetime">
+                        <div class="date">
+                            <span id="dayname">Day</span> |
+                            <span id="month">Month</span>
+                            <span id="daynum">00</span> |
+                            <span id="year">Year</span>
+                        </div>
+                        <div class="time">
+                            <span id="hours">00</span> :
+                            <span id="minutes">00</span> :
+                            <span id="seconds">00</span>
+                            <span id="period">AM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Digital Clock End-->
+        </div>
+    </div>
+    <!-- JavaScript Start -->
+    <script type="text/javascript" src="./js/analog.js"></script>
+    <script type="text/javascript" src="./js/digital.js"></script>
+    <!-- JavaScript End -->
+</body>
+</html>
