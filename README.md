@@ -18,3 +18,15 @@ You can take a preview of this!
 <img src="https://media.discordapp.net/attachments/470112632242700300/941719964061138994/unknown.png?width=827&height=386">
 
 ---
+
+## Features
+
+> - Gradient Border Animation
+> - Gradient Colors Animation 
+> - Both Analog And Digital In One Page
+> - Division of Colors to make it lookable
+> - Shows Accurate Time Whenever and Wherever
+> - Displays Day, Year, Month, Date
+> - Box Reflection below and hover effects
+
+###### Thanks to my friend who helped me in this process!
